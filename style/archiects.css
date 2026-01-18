@@ -133,6 +133,24 @@ main > section{
    
 
 }
+#experince-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+
+}
+#experince-year{
+    font-size: 4rem;
+    font-weight: 700;
+
+
+
+}
+.features-architects img{
+
+    width: 100%;
+}
 .facts-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -163,9 +181,20 @@ main > section{
 .fact-description{
     max-width: 540px;
 }
+.foot-container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF4E7;
+    width: 100%;
+
+
+
+}
 
 @media screen and (max-width:576px){
     .navbar ,
+    .features
      .nav-link ,
       .teams{
         flex-direction: column;
@@ -188,6 +217,10 @@ main > section{
         gap: 24px;
     }
     .our-features{
+        margin-left: 20px;
+    }
+    #experince-badge{
+        margin-top: 20px;
         margin-left: 20px;
     }
     
